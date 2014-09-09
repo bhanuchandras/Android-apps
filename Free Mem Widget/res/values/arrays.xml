@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/values/arrays.xml -->
+<resources>
+<string-array name="devices">
+    <item>SD CARD</item>
+    <item>LOCAL STORAGE</item>
+</string-array>
+<string-array name="device_values">
+    <item>0</item>
+    <item>1</item>
+</string-array>
+</resources>

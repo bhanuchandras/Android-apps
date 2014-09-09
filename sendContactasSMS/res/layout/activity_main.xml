@@ -1,0 +1,31 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+
+<TextView 
+    android:id="@+id/Txtv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="This App Allows you to Select the Contact and Message that Contact to desired person"
+    android:textSize="18dp"
+    android:layout_margin="5dp"
+    
+      />
+
+ <Button
+     android:id="@+id/btnSelcon"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="Select Contact To Send as SMS" />
+
+ <Button
+     android:id="@+id/btnCan"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="Cancel" />
+
+ 
+</LinearLayout>

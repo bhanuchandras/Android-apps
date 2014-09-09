@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/editButton"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/editButton" 
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:onClick="editNote"
+
+	        />
+	
+	    <TextView
+	        android:id="@+id/titleText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/editButton"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_toLeftOf="@+id/editButton"
+	        android:gravity="left|center"
+	        android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bodyText"
+        android:gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:textSize="16dp"
+         />
+  
+
+</LinearLayout>

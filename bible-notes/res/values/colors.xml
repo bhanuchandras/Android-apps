@@ -1,0 +1,4 @@
+<resources>
+    <drawable name="focused">#ff55ff</drawable>
+    <drawable name="selected">#FF5500</drawable>
+</resources>

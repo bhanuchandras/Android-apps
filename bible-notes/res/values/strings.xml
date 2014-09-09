@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">bible-notes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bible">Bible</string>
+    <string name="Addnotes">Notes</string>
+    <string name="Newnotes">New Note</string>
+    <string name="Button">Save</string>
+    <string name="Hint_title">Title</string>
+    <string name="Hint_body">Your Notes Here</string>
+    <string name="previous_verse">Prev</string>
+    <string name="editButton">Edit</string>
+    <string-array name="version">
+        <item>ESV</item>
+        <item>KJV</item>
+    </string-array>
+    <string-array name="ventries">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+</resources>

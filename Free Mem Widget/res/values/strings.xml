@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Space simple</string>
+
+    <string name="template_user_agent" translatable="false">"%1$s/%2$s (Linux; Android)"</string>
+    <string name="template_wotd_title">"Wiktionary:Word of the day/%1$s %2$s"</string>
+    <string name="template_define_url" translatable="false">"http://en.wiktionary.org/wiki/%s"</string>
+
+    <string name="widget_name">Space simple</string>
+
+    <string name="widget_loading">Loading</string>
+    <string name="widget_error">Error</string>
+
+ 
+    <string name="prefTitle">My Preferences</string>
+    <string name="prefSummary">Choose the device</string>
+    <string name="device_option_default_value">1</string>
+    <string name="dialogTitle">Choose Device Options</string>
+    <string name="listSummary">set Device Options</string>
+    <string name="listTitle">Device Options</string>
+    <string name="widget_type">
+        selected_widget_type</string>
+    <string name="menu_prefs_title">Settings</string>
+    <color name="white">#FFFFFF</color>
+	<color name="blue">#0033cc</color>
+	<color name="black">#111111</color>
+	<color name="green">#33ff33</color>
+	
+	    
+</resources>
